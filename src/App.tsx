@@ -17,11 +17,11 @@ function App() {
   }
 
   return (
-    <>
+    <main className='p-4 bg-gradient-to-b from-slate-50 to-slate-100 min-w-screen min-h-screen flex justify-center items-center'>
       <Board 
         matrix={generateMatrix()}
       />
-    </>
+    </main>
   );
 }
 
